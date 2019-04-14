@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <head>
+      <style type="text/css">
+        h1 {
+          font-family: "Helvetia Neue;";
+          color: 000000;
+          font-size: 50;
+          text-align: center;
+          padding: 10px;
+        }
+        p {
+          font-family: "Helvetia Neue;";
+          font-size: 15;
+          color: 000000;
+          text-align: center;
+          text-align: justify;
+        }
+        .box {
+          color: #ffffff;
+          background: rebeccapurple;
+          width: 100vw;
+          height: 100vh;
+        }
+      </style>
+    </head>
+  </head>
+  <title>Welcome to the sandbox App!!</title>
+  <body>
+    <div class="box">
+      <h1>Here is an App title!</h1>
+      <p>Here is some app content</p>
+    </div>
+    <script>
+      (function write() {
+        console.log("write is fired");
+        let tag = document.createElement("p");
+        tag.innerText = "Boom! Javascript";
+        let container = document.querySelector(".box");
+        container.appendChild(tag);
+      })();
+    </script>
+  </body>
+</html>

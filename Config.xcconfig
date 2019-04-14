@@ -1,0 +1,11 @@
+//
+//  Config.xcconfig
+//  sandboxApp
+//
+//  Created by Taylor Thompson on 14/04/2019.
+//  Copyright © 2019 Taylor Thompson. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+DEV=1

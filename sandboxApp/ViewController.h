@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Webkit/Webkit.h>
 
-@interface ViewController : UIViewController
-
+FOUNDATION_EXPORT NSString *const WEB_URL;
+@interface ViewController : UIViewController;
 
 @end
 
